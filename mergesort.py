@@ -8,7 +8,7 @@ def mergesort(arr):
 	right = arr[len(arr)/2:]
 	ret = []
 
-	if len(arr) == 1 and len(right) == 1:
+	if len(left) == 1 and len(right) == 1:
 		if left[0] < right[0]:
 			ret.append(left[0])
 			ret.append(right[0])
