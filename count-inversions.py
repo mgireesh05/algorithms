@@ -75,7 +75,7 @@ def sort_count_and_merge(left, right):
 
 	return count, ret
 
-	
+
 
 arr = [3, 2, 8, 7]
 count = count_inversions(arr)
@@ -113,10 +113,10 @@ arr = [769, 721, 114, 908, 208, 17, 636, 445, 110, 192, 6, 261, 520, 716, 472, 5
 count = count_inversions(arr)
 assert (count == 246856), "Inversions = %r is wrong!" % count
 
-input_file = open("in.txt")
+input_file = open("input.txt")
 arr = input_file.readlines()
 arr = [int(x.strip()) for x in arr] #Make sure to convert the read line to int, otherwise the answer won't be correct
 count = count_inversions(arr)
-assert (count == 2407905288), "Inversions = %r is wrong!" % count
+assert (count == 2461), "Inversions = %r is wrong!" % count
 
 print "All tests passed!!!"
