@@ -126,6 +126,7 @@ class Graph:
 				print ("Got a smaller cut", cut)
 		return min_cut
 
+	# convert to an adjacency matrix to visualize using this http://graphonline.ru/en/
 	def convert_to_adjacency_matrix(self):
 		adj_matrix = []
 		for i in range(0, self.orig_len):
